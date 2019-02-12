@@ -84,6 +84,10 @@
                 background-color: white;
                 padding: 20px;
             }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
 
             /* Fake image, just for this example */
             .fakeimg {
@@ -127,16 +131,16 @@
             <a href="#">Program2</a>
             <a href="./index.html" class="right">Home</a>
         </div>
-
-        <div class="row">
-            <div class="side">
-                <h2>About Me</h2>
-                <p>My name is Naomi Green, I am a computer science major at SDSMT. I will graduate in May 2019. I am taking this class because I would like to go into AI when I graduate.</p>
-            </div>
             <div class="main">
-                <h2>Intro to Computer Vision</h2>
-                <h5>January 7, 2019</h5>
-                <p>Introductory course in computer vision. This course covers principles of image formation, local feature analysis, multi-view geometry, image warping and stitching, structure from motion, and visual recognition. We also touch upon related topics in signal and image processing including convolution, image pyramids, frequency domain analysis, and gradient- based analysis techniques.</p>
+                <h2>Program 1</h2>
+                <h5>Febuary 11, 2019</h5>
+                <p>A hybrid image is the sum of a low-pass filtered version of a first image and a high-pass filtered version of a second image. We must tune a free parameter for each image pair to control how much high frequency to remove from the first image and how much low frequency to leave in the second image. This is called the “cut-off frequency”. The paper suggests to use two cut-off frequencies, one tuned for each image, and you are free to try this too.</p>
+                <p>Here are some of the image pyramids that this program generates</p>
+                <img alt="Image Pyramid" src="./cat-dog.png">
+                <img alt="Image Pyramid" src="./fish-submarine.png">
+                <img alt="Image Pyramid" src="./plane-bird.png">
+                <img alt="Image Pyramid" src="./bird-plane.png">
+
             </div>
         </div>
     </body>
